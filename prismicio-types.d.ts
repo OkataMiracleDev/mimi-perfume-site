@@ -151,6 +151,16 @@ export interface HeroSliceDefaultPrimary {
   heading: prismic.RichTextField;
 
   /**
+   * Brand field in *Hero → Default → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: your brand name
+   * - **API ID Path**: hero.default.primary.brand
+   * - **Documentation**: https://prismic.io/docs/fields/rich-text
+   */
+  brand: prismic.RichTextField;
+
+  /**
    * Body field in *Hero → Default → Primary*
    *
    * - **Field Type**: Rich Text

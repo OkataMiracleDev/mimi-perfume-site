@@ -26,13 +26,24 @@
 				]
 			},
 			"cta_btn": {
-				"__TYPE__": "LinkContent",
 				"key": "26d354a7-a909-437c-b563-f56b9eb3d233",
+				"__TYPE__": "LinkContent",
 				"value": {
 					"__TYPE__": "ExternalLink",
 					"url": "https://prismic.io",
 					"text": "private"
 				}
+			},
+			"brand": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Total"
+						}
+					}
+				]
 			}
 		},
 		"items": []

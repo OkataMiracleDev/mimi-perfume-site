@@ -21,6 +21,15 @@
             "single": "heading1"
           }
         },
+        "brand": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Brand",
+            "placeholder": "your brand name",
+            "allowTargetBlank": true,
+            "single": "heading2,em,strong"
+          }
+        },
         "body": {
           "type": "StructuredText",
           "config": {

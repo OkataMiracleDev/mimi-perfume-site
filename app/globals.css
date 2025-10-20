@@ -1,2 +1,19 @@
 @import "tailwindcss";
 
+/* personal classes */
+.bg-texture{
+    position: relative;
+    z-index: 0;
+    
+}
+  .bg-texture::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('/texture.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2; /* control here */
+    z-index: -1;
+  }
