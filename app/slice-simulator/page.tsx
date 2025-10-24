@@ -13,7 +13,7 @@ export default async function SliceSimulatorPage({
   const { state } = await searchParams;
   const slices = getSlices(state);
 
-  return (
+  return (    
     <SliceSimulator>
       <SliceZone slices={slices} components={components} />
     </SliceSimulator>

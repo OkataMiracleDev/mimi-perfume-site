@@ -24,19 +24,19 @@ const Hero: FC<HeroProps> = ({ slice }) => {
 
         <div className={` ${bebas.className} text-[6rem] md:text-[10rem]`}>
           
-        <PrismicRichText field={slice.primary.heading} />
+          <PrismicRichText field={slice.primary.heading} />
 
         </div>
 
         <div className={` ${bebas.className} -mt-[3rem] md:-mt-[5rem] text-[3rem] md:text-[5rem]`}>
 
-        <PrismicRichText field={slice.primary.brand} />
+          <PrismicRichText field={slice.primary.brand} />
 
         </div>
 
         <div className='mt-[1rem] text-2xl md:w-[50%] font-medium'>
 
-        <PrismicRichText field={slice.primary.body} />
+          <PrismicRichText field={slice.primary.body} />
 
         </div>
 
